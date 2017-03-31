@@ -29,23 +29,7 @@ public class RoverApp {
 		System.out.println(rover1.getDirection());
 
 
-//		Scanner scanTasks1 = new Scanner(System.in).useDelimiter("\\s*");
-//		while(true){
-//			if(scanTasks1.hasNext()){
-//				scanTasks1.close();
-//			char task1 = scanTasks1.next().charAt(0);
-//			System.out.println(task1);
-//			if(task1 == 'M'){
-//				rover1.move(rover1.getDirection());
-//				System.out.println((rover1.getCoordX())+ "" + (rover1.getCoordY())+ "" +(rover1.getDirection()));
-//			}
-//			else{
-//				rover1.spin(task1);
-//				System.out.println((rover1.getCoordX())+ "" + (rover1.getCoordY())+ "" +(rover1.getDirection()));}
-//			}
-//			else {
-//				break;}
-//		}
+
 		
 		Scanner scanTasks1 = new Scanner(System.in);
 		String line = scanTasks1.nextLine();
