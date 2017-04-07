@@ -1,4 +1,4 @@
-package bares;
+package persistence;
 
 public class Cliente {
 	private String nome;
